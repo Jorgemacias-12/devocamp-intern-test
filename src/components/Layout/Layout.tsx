@@ -13,7 +13,7 @@ const Layout = ( {children}: LayoutProps) => {
   return (
     <section className={styles.appContainer}>
       <Header />
-      <main>{children}</main>
+      <main className={styles.main}>{children}</main>
       <Footer />
     </section>
   )
