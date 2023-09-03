@@ -40,9 +40,7 @@ export default function Home() {
 
     finally {
       // Loading spinner dissapears here
-      setTimeout(() => {
-        setIsLoading(false);
-      }, 10500);
+      setIsLoading(false);
     }
 
   }
