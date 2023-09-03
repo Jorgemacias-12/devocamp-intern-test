@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: center; 
+  background-color: var(--header-c);
+  color: white;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+
+.brandContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
+.brandTitle {
+  margin: 1rem 0;
+}
+
+
+@media screen and (min-width: 48em) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }  
+
+  .brandContainer {
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
