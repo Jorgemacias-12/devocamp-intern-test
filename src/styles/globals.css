@@ -1,5 +1,11 @@
 :root {
   font-family: Arial, Helvetica, sans-serif;
+  --header-c: #2c2a4a;
+  --header-c-20: #56556e;
+  --loader-c: #7fdeff;
+  --loader-c-20: #99e5ff;
+  --primary-1-c: #80ffdb;
+  --primary-1-c-40: #4d9983;
 }
 
 * {
