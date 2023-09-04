@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  justify-content: center; 
+  position: relative;
+  height: calc(100dvh - 2rem)
+}
+
+.link {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.icon {
+  font-size: 2rem;
+  background-color: white;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  line-height: 3rem;
+  border-radius: 100%;
+  color: black;
+}
+
+.icon:hover {
+  color: var(--primary-1-c-40);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 300px;
+  height: 25rem;  
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.3rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 5rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.subTitle {
+  color: #ccc;
+  text-align: center;
+}
+
+.loginIcon {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  color: var(--primary-1-c-40)
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input {
+  background-color: #f1f1f1;
+  border: 0.15rem solid transparent;
+  height: 2.5rem;
+  padding-left: 0.5rem;
+}
+
+/* .input:invalid {
+  border-color: var(--error-c);
+  color: var(--error-c)
+}
+
+.input:valid {
+  border-color: var(--primary-1-c-40);
+  color: var(--primary-1-c-40)
+} */
+
+.button {
+  border: 0.1rem solid transparent;
+  padding: 1rem;
+  background-color: var(--primary-1-c-40);
+  color: white;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    align-items: center;
+  }
+  .icon {
+    margin-left: 1rem;
+  }
+}
