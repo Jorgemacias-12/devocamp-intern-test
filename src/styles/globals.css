@@ -6,6 +6,12 @@
   --loader-c-20: #99e5ff;
   --primary-1-c: #80ffdb;
   --primary-1-c-40: #4d9983;
+  --error-c: #bb2929;
+  --error-c-20: #c95454;
+  --sucess-c: #1bc256;
+  --sucess-c-20: #49ce78;
+  --body-bg: #f1f1f1;
+  background-color: var(--body-bg);
 }
 
 * {
