@@ -11,6 +11,10 @@ const login = () => {
 
   }
 
+  const handleRegister = () => {
+
+  }
+
   return (
     <section className={styles.container}>
       <Link href={"/"} className={styles.link}>
@@ -52,7 +56,13 @@ const login = () => {
             Iniciar sesión
           </button>
         </section>
+
+        <section>
+          <Link className={styles.formLink} href="/register">Registrarme</Link>
+        </section>
+
       </form>
+    
     </section>
   );
 }
