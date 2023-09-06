@@ -49,6 +49,9 @@
 }
 
 .button {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
   height: 2.5rem;
   padding: 0 1rem;
   background-color: transparent;
@@ -61,6 +64,14 @@
 .button:hover {
   background-color: var(--primary-1-c-40);
   transition: 0.2s background-color;
+}
+
+.buttonLink {
+  display: block;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
 }
 
 

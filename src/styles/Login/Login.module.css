@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   position: relative;
   height: calc(100dvh - 2rem)
 }
@@ -20,6 +20,7 @@
   line-height: 3rem;
   border-radius: 100%;
   color: black;
+  margin-left: 1rem;
 }
 
 .icon:hover {
@@ -31,7 +32,6 @@
   flex-direction: column;
   gap: 0.5rem;
   width: 300px;
-  height: 25rem;  
   padding: 1rem;
   background-color: white;
   border-radius: 0.3rem;
@@ -90,11 +90,23 @@
   cursor: pointer;
 }
 
+.formLink {
+  display: block;
+  color: #06f;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     align-items: center;
   }
+
   .icon {
-    margin-left: 1rem;
+    margin-left: 0;
+  }
+
+  .form {
+    margin-top: 0;
   }
 }
