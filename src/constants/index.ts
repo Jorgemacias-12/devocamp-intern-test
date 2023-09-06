@@ -14,7 +14,7 @@ export const MenuItems: MenuItem[] = [
   {
     name: "Iniciar sesión",
     nodeType: "button",
-    url: "/signIn"
+    url: "/login"
   }
 ];
 
