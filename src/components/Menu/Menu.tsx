@@ -36,7 +36,9 @@ const Menu = () => {
             </li>
           ) : (
             <li key={index}>
-              <button className={styles.button}>{item.name}</button>
+              <button className={styles.button}>
+                <Link className={styles.buttonLink} href={item.url}>{item.name}</Link>
+              </button>
             </li>
           )
         )}
