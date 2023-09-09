@@ -3,15 +3,9 @@ import React from 'react'
 import styles from '@/styles/Login/Login.module.css'
 import Link from 'next/link'
 
-import Image from 'next/image'
-
 const login = () => {
 
   const handleSubmit = () => {
-
-  }
-
-  const handleRegister = () => {
 
   }
 
@@ -36,12 +30,7 @@ const login = () => {
 
         <section className={styles.formGroup}>
           <label htmlFor="">Email:</label>
-          <input
-            className={styles.input}
-            type="email"
-            name=""
-            id=""
-          />
+          <input className={styles.input} type="email" name="" id="" />
           <p></p>
         </section>
 
@@ -60,9 +49,8 @@ const login = () => {
         <section>
           <Link className={styles.formLink} href="/register">Registrarme</Link>
         </section>
-
       </form>
-    
+
     </section>
   );
 }
