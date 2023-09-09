@@ -52,8 +52,6 @@
   display: flex;
   justify-content: center; 
   align-items: center;
-  height: 2.5rem;
-  padding: 0 1rem;
   background-color: transparent;
   border: 0.1rem solid var(--primary-1-c-40);
   color: white;
@@ -67,7 +65,7 @@
 }
 
 .buttonLink {
-  display: block;
+  padding: 1rem;
   color: white;
   text-decoration: none;
   width: 100%;
