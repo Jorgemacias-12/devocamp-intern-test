@@ -46,6 +46,7 @@
   outline-color: transparent;
   padding-left: 0.5rem;
   height: 2.5rem;
+  resize: vertical;
 }
 
 .caption {
