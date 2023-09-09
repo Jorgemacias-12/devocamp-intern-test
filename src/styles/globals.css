@@ -11,7 +11,9 @@
   --sucess-c: #1bc256;
   --sucess-c-20: #49ce78;
   --body-bg: #f1f1f1;
+  --caption-c: #9f9999;
   background-color: var(--body-bg);
+  --border-size: 0.15rem;
 }
 
 * {
