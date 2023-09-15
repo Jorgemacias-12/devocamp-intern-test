@@ -1,11 +1,27 @@
-import React from 'react'
+import React from "react";
+
+import styles from "@/styles/Footer/Footer.module.css";
+import { socialMedias } from "@/constants";
 
 const Footer = () => {
   return (
-    <div>
-      Footer funciona
-    </div>
-  )
-}
+    <footer className={styles.footer}>
+      <h2>Redes sociales</h2>
 
-export default Footer
+      <section className={styles.socialNetworks}>
+        {socialMedias.map((socialMedia, item) => {
+          return (
+            <a
+              href={socialMedia.url}
+              target="_blank"
+              className={`${styles.socialNetwork} ${socialMedia.iconClass}`}
+              key={item}
+            ></a>
+          );
+        })}
+      </section>
+    </footer>
+  );
+};
+
+export default Footer;

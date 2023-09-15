@@ -4,3 +4,13 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+
+.main {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 1rem 0rem;
+  }
+}
