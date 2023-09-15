@@ -14,7 +14,7 @@ const Layout = ( {children}: LayoutProps) => {
 
   const router = useRouter()
 
-  const routesWithoutLayout = ['/login']
+  const routesWithoutLayout = ['/login', '/register']
 
   const shouldHideLayout = routesWithoutLayout.includes(router.pathname);
 
