@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react'
 import { User } from '@/types';
 import Avatar from '@/components/Avatar/Avatar';
 
-
 export default function Home() {
 
   // ! Use after building the base content const [error, setError] = useState(null)
@@ -65,6 +64,7 @@ export default function Home() {
           })
         }
       </section>      
+
     </>
   )
 }

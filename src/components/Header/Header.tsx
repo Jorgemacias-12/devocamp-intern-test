@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Image from 'next/image'
 
 import styles from '@/styles/Header/Header.module.css'
@@ -18,7 +17,6 @@ const Header = () => {
       </section>
       <Menu />
     </header>
-  )
-}
-
+    
+    
 export default Header
