@@ -1,8 +1,9 @@
-import React, { ReactNode, useState } from 'react'
+import React, { ReactNode } from 'react'
 
 import styles from '@/styles/Layout/Layout.module.css'
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import { useRouter } from 'next/router';
 
 
 type LayoutProps = {
@@ -24,5 +25,6 @@ const Layout = ( {children}: LayoutProps) => {
       {!shouldHideLayout && <Footer />}
     </section>
   );
+}
   
 export default Layout

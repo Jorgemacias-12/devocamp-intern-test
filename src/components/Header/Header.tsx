@@ -17,6 +17,7 @@ const Header = () => {
       </section>
       <Menu />
     </header>
-    
-    
+  )   
+}
+
 export default Header
