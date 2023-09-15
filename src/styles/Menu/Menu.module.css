@@ -1,0 +1,112 @@
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.3rem;
+  gap: 0.2rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.icon:hover {
+  color: black;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 1rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.3s ease, transform 0.3s ease;
+  gap: 0.5rem;
+}
+
+.menu[data-expanded="true"] {
+  max-height: 200px;
+  transition: max-height 0.5 ease, opacity 0.3 ease, transform 0.3 ease;
+}
+
+.menu[data-expanded="false"] {
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.menuItem {
+  display: block;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1rem .5rem;
+}
+
+
+.menuItem:hover {
+  background-color: var(--header-c-20);
+}
+
+.button {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: transparent;
+  border: 0.1rem solid var(--primary-1-c-40);
+  color: white;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--primary-1-c-40);
+  transition: 0.2s background-color;
+}
+
+.buttonLink {
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (min-width: 48em) {
+  .menuContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: flex-end;
+  }
+
+  .icon {
+    margin-right: 1rem;
+  }
+
+  .menu {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  .button {
+    height: 100%;
+  }
+
+  .menu {
+    max-width: 0;
+    transition: max-width 0.5s ease, opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .menu[data-expanded="true"] {
+    max-width: 262px;
+    transition: max-width 0.5 ease, opacity 0.3 ease, transform 0.3 ease;
+  }
+  
+  .menu[data-expanded="false"] {
+    max-width: 0;
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+}

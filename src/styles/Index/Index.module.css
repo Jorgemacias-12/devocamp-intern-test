@@ -1,0 +1,23 @@
+.usersContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.5rem;
+  position: relative;
+}
+
+.spinner {
+  width: 128px;
+  height: 128px;
+  border-radius: 100%;
+  border: 0.3rem solid #ccc;
+  display: block;
+  border-left-color: #06f;
+  margin: 0 auto;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

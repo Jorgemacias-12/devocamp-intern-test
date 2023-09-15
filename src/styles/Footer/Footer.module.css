@@ -1,0 +1,19 @@
+.footer {
+  background-color: var(--header-c);
+  padding: 1rem;
+  color: white;
+}
+
+.socialNetworks {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.socialNetwork {
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+}
