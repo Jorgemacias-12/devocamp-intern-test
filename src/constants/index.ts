@@ -10,6 +10,12 @@ export const MenuItems: MenuItem[] = [
     name: "Contacto",
     nodeType: "Link",
     url: "/contact"
+  }
+  ,
+  {
+    name: "Dashboard",
+    nodeType: "Link",
+    url: "/dashboard"
   },
   {
     name: "Iniciar sesión",

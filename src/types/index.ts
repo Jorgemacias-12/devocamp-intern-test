@@ -18,3 +18,11 @@ export type User = {
   last_name: string;
   avatar: string;
 }
+
+export type Student = {
+  Id: number,
+  Name: string,
+  Ncontrol: number,
+  Especialidad: string,
+  Direccion: string
+}

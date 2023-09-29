@@ -1,0 +1,5 @@
+.container {
+  width: 100vw;
+  height: 100dvh;
+  background-color: var(--loader-bg);
+}

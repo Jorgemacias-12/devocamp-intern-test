@@ -82,6 +82,7 @@
   }
 
   .icon {
+    margin: 0;
     margin-right: 1rem;
   }
 
@@ -100,7 +101,7 @@
   }
   
   .menu[data-expanded="true"] {
-    max-width: 262px;
+    max-width: 400px;
     transition: max-width 0.5 ease, opacity 0.3 ease, transform 0.3 ease;
   }
   
